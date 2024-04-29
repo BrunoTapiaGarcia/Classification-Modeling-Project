@@ -48,7 +48,7 @@ Dataset
 
 facebook_live_data.xlsx
 
-Project: Tapia_ Bruno_A1 Unsupervised Analysis_project (Individual) (1).ipynb 
-<a href="Tapia_Bruno_A2.html">View project in HTML</a>
 
-<a href="https://brunotapiagarcia.github.io/Classification-Modeling-Project/" >Regression Modeling Project</a>
+<a href="Tapia_Bruno_A1 Unsupervised Analysis Project (Individual).html">View project in HTML</a>
+
+
