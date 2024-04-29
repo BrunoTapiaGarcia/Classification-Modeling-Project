@@ -1,7 +1,4 @@
-# Classification-Modeling-Project
-
-
-Classification Modeling
+# Classification Modeling Project
 
 Unsupervised Analysis Project
 
@@ -46,8 +43,7 @@ Confusion matrix: Explain each error and its associated risks for the business.
 
 Dataset
 
-facebook_live_data.xlsx
-
+<a href="facebook_live_data.xlsx">facebook_live_data.xlsx</a>
 
 <a href="Tapia_Bruno_A1 Unsupervised Analysis Project (Individual).html">View project in HTML</a>
 
