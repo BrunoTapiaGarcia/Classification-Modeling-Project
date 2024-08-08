@@ -1,44 +1,25 @@
 # Classification Modeling Project
 
-Unsupervised Analysis Project
+### Unsupervised Machine Learning
 
-Case Information
+Project Overview:
+In this academic project, I was tasked with analyzing social media content for a marketing consulting firm in Thailand, a market known for its active social media landscape. The primary objective was to investigate the impact of photo content on engagement across social media platforms, particularly Facebook. This analysis was crucial as the firm traditionally advised clients to prioritize photo posts, believing them to be the most engaging form of content.
 
-A marketing consulting firm in Thailand has asked you to read the following research on Usage and Engagement Patterns for Facebook Live Sellers in Thailand Download Usage and Engagement Patterns for Facebook Live Sellers in Thailand.
+Objective:
+The main goal was to assess the validity of the firm's strategy by comparing the engagement levels of photos with other content types. The project aimed to determine whether photos indeed lead in total engagement and specific reaction metrics, such as likes and loves. Additionally, the project involved exploring advanced data analysis techniques like Principal Component Analysis (PCA) and K-means clustering to uncover deeper insights into social media engagement patterns.
 
- 
+Methodology:
 
-Objective
+Engagement Analysis: I began by conducting a detailed comparison of engagement metrics across different content types, focusing on the performance of photos. This involved analyzing reactions, comments, and shares to see if photos consistently outperformed other formats.
 
-Analyze the impact of photo content. In short, your company has long operated under the general idea that photos  are the most engaging form of social media content and that they should advise their clients to post as many of these as they can. 
+Principal Component Analysis (PCA): I utilized PCA to reduce the dimensionality of the social media metrics, identifying key components that capture the essence of the data. This step included creating a scree plot to determine the optimal number of components to retain and analyzing the factor loadings to interpret each principal component.
 
- 
+Clustering and Segmentation: Using the retained principal components, I applied K-means clustering to segment the social media content into distinct groups. This segmentation helped in understanding the different types of content strategies used by social media users and their associated engagement levels.
 
-Analysis Tasks/Questions
+Logistic Regression Models: To further explore the relationship between content type and engagement, I developed three logistic regression models, each using different sets of features: original metrics, principal components, and clusters. The best model was selected based on accuracy and AUC scores, with a detailed explanation of the model's business implications.
 
-Provide an introduction to your analysis. 
-
-In terms of reactions (likes, loves, etc.), how do photos perform when compared to other forms of content? Are they leading in terms of total engagement? What about in engagement on specific reactions? 
-Develop principal components (PCA) based on the available social media metrics in the dataset. You may choose to group or exclude metrics as you see fit. 
-Develop a scree plot and determine how many principal components you would like to retain. Draw a vertical line in the scree plot to indicate your cutoff point. 
-Present the factor loadings for the retained principal components (correlations with the original features).
-Interpret each of your retained principal components. 
-Rename each principal component based on your interpretation of what it represents.
-Develop segmentation with k-means clustering, using your retained principal components. You may also include additional features in your segmentation (avoid reusing features that were loaded into the principal components).
-Decide on an ideal number of clusters and explain your rationale. 
-Present and interpret each segment using cluster centroids and give an example of a "normal" post for each segment. 
-Rename each segment based on your interpretation of what it represents.
-Analyze the status types of each segment and report any findings related to photos. 
-
-Develop three logistic regression models (1 = photo, 0 = not photo), each based on the following x-features.
-Model 1: Original x-features
-Model 2: Retained principal components
-Model 3: Retained clusters
-
-Select your best model from above and present the following:
-Your rationale for why this is the best model. 
-Model results: train-test gap based on accuracy and AUC score based on the results of the .predict step)
-Confusion matrix: Explain each error and its associated risks for the business. 
+Outcomes:
+The project provided actionable insights into the effectiveness of photo content in driving engagement on social media. The findings were proposed to refine the firm's content strategy recommendations, ensuring that clients could maximize their reach and interaction with their target audiences.
  
 
 Dataset
