@@ -2,15 +2,15 @@
 
 ### Unsupervised Machine Learning
 
-Project Overview
+**Project Overview**
 
 In this academic project, I was tasked with analyzing social media content for a marketing consulting firm in Thailand, a market known for its active social media landscape. The primary objective was to investigate the impact of photo content on engagement across social media platforms, particularly Facebook. This analysis was crucial as the firm traditionally advised clients to prioritize photo posts, believing them to be the most engaging form of content.
 
-Objective
+**Objective**
 
 The main goal was to assess the validity of the firm's strategy by comparing the engagement levels of photos with other content types. The project aimed to determine whether photos indeed lead in total engagement and specific reaction metrics, such as likes and loves. Additionally, the project involved exploring advanced data analysis techniques like Principal Component Analysis (PCA) and K-means clustering to uncover deeper insights into social media engagement patterns.
 
-Methodology
+**Methodology**
 
 Engagement Analysis: I began by conducting a detailed comparison of engagement metrics across different content types, focusing on the performance of photos. This involved analyzing reactions, comments, and shares to see if photos consistently outperformed other formats.
 
@@ -20,12 +20,12 @@ Clustering and Segmentation: Using the retained principal components, I applied 
 
 Logistic Regression Models: To further explore the relationship between content type and engagement, I developed three logistic regression models, each using different sets of features: original metrics, principal components, and clusters. The best model was selected based on accuracy and AUC scores, with a detailed explanation of the model's business implications.
 
-Outcomes
+**Outcomes**
 
 The project provided actionable insights into the effectiveness of photo content in driving engagement on social media. The findings were proposed to refine the firm's content strategy recommendations, ensuring that clients could maximize their reach and interaction with their target audiences.
  
 
-Documents
+**Documents**
 
 <a href="facebook_live_data.xlsx">Dataset</a>
 
