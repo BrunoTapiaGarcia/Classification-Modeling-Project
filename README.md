@@ -22,10 +22,12 @@ Outcomes:
 The project provided actionable insights into the effectiveness of photo content in driving engagement on social media. The findings were proposed to refine the firm's content strategy recommendations, ensuring that clients could maximize their reach and interaction with their target audiences.
  
 
-Dataset
+Documents
 
-<a href="facebook_live_data.xlsx">facebook_live_data.xlsx</a>
+<a href="facebook_live_data.xlsx">Dataset</a>
 
-<a href="Tapia_Bruno_A1 Unsupervised Analysis Project (Individual).html">View project in HTML</a>
+<a href="Unsupervised_Analysis_Project.ipynb">Download Jupyter Notebook</a>
+
+<a href="Unsupervised_Analysis_Project.html">View project in HTML</a>
 
 
